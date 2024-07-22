@@ -45,6 +45,3 @@ module "route53" {
   cloudfront_zone_id = module.cloudfront.hosted_zone_id
 }
 
-output "bucket_website_url" {
-  value = module.s3.bucket_website_url
-}
